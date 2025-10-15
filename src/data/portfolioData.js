@@ -155,7 +155,7 @@ const myPortfolioData = {
     github: "https://github.com/JERRICKGERALD",
     linkedin: "https://linkedin.com/in/jerrickgerald",
     scholar: "https://scholar.google.com/citations?user=gP2zJ7IAAAAJ&hl=en",
-    website: "https://yourwebsite.com",
+
   },
 
   sectionVisibility: {
