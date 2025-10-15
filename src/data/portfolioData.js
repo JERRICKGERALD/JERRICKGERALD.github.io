@@ -93,7 +93,7 @@ const myPortfolioData = {
   talks: [
     {
       id: "talk-1",
-      title: "Upcoming",
+      title: "Lightning Talk - MCBK Global Lightning Talk ",
       // venue: "",
       // date: "",
       // location: "",
@@ -161,7 +161,7 @@ const myPortfolioData = {
   sectionVisibility: {
     about: true,
     publications: true,
-    talks: false,
+    talks: true,
     education: true,
     Experience: true,
     awards: true,
