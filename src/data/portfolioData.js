@@ -42,7 +42,7 @@ const myPortfolioData = {
   ],
 
   publications: [
-    {
+        {
       id: "pub-1",
       title:
         "Embracing Missingness: Enhancing Similarity Measures via Probabilistic Embeddings",
@@ -65,9 +65,32 @@ const myPortfolioData = {
       // },
       featured: true,
     },
-
     {
       id: "pub-2",
+      title:
+        "Addressing health inequities through multimorbidity analysis: A fold change approach for targeted health policy interventions.",
+      year: "2025",
+      authors: ["Khvatskii, G., Gerald, J., García-Martínez, Á., Feldman, K., Burgos-Cardenas, Á. J., Buitrago Gutierrez, G., & Chawla, N. V. (2025)"],
+      venue: "",
+      description: "",
+      links: {
+        pdf: "#",
+        arxiv: "#",
+        code: "#",
+        website: "",
+      },
+      // visual: {
+      //   question: "What does a platypus look like?",
+      //   highlightWord: "platypus",
+      //   image: "",
+      //   modelName: "",
+      //   response: "A platypus looks like a beaver with a duck's bill",
+      // },
+      featured: true,
+    },
+
+    {
+      id: "pub-3",
       title: "Semantic Framework for Query Synthesised 3D Scene Rendering",
       year: "2023",
       authors: [
