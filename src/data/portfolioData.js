@@ -42,53 +42,68 @@ const myPortfolioData = {
   ],
 
   publications: [
-    {
-      id: "pub-2",
-      title:
-        "Addressing health inequities through multimorbidity analysis: A fold change approach for targeted health policy interventions.",
-      year: "2025",
-      authors: ["Khvatskii, G., Gerald, J., García-Martínez, Á., Feldman, K., Burgos-Cardenas, Á. J., Buitrago Gutierrez, G., & Chawla, N. V. (2025)"],
-      venue: "",
-      description: "",
-      links: {
-        pdf: "#",
-        arxiv: "#",
-        code: "#",
-        website: "",
-      },
-      // visual: {
-      //   question: "What does a platypus look like?",
-      //   highlightWord: "platypus",
-      //   image: "",
-      //   modelName: "",
-      //   response: "A platypus looks like a beaver with a duck's bill",
-      // },
-      featured: true,
+publications: [
+  {
+    id: "pub-1",
+    title: "Embracing Missingness: Enhancing Similarity Measures via Probabilistic Embeddings",
+    year: "2025",
+    authors: ["Jerrick Gerald", "Nitesh V. Chawla", "Keith Feldman"],
+    venue: "ICDIPV 2025",
+    description:
+      "This paper introduces a probabilistic embedding framework to handle missing data when computing similarity measures. By modeling uncertainty explicitly, the approach enhances robustness and interpretability across heterogeneous datasets. Experiments demonstrate improvements in clustering and retrieval tasks compared to traditional imputation-based methods.",
+    links: {
+      pdf: "#",
+      arxiv: "#",
+      code: "#",
+      website: "",
     },
+    featured: true,
+  },
 
-    {
-      id: "pub-3",
-      title: "Semantic Framework for Query Synthesised 3D Scene Rendering",
-      year: "2023",
-      authors: [
-        "Sri Gayatri Devi",
-        "S Sowmiya Sree",
-        "Jerrick Gerald",
-        "Geetha Palanisamy",
-      ],
-      venue: "ICDIPV 2023",
-      description:
-        "This work presents an end-to-end model for novel view synthesis from a single image, eliminating the need for multi-view inputs or ground-truth 3D data. The model learns 3D-aware features through spatial feature extraction and depth map prediction. A query network generates the target view, while a refinement network inpaints missing regions to produce realistic outputs. The approach is trained and evaluated on the RealEstate10K and KITTI datasets, covering both indoor and outdoor scenes.",
-      links: {
-        pdf: "#",
-        arxiv: "#",
-        code: "#",
-        website: "",
-      },
-
-      featured: true,
+  {
+    id: "pub-2",
+    title:
+      "Addressing Health Inequities Through Multimorbidity Analysis: A Fold Change Approach for Targeted Health Policy Interventions",
+    year: "2025",
+    authors: [
+      "G. Khvatskii",
+      "J. Gerald",
+      "Á. García-Martínez",
+      "K. Feldman",
+      "Á. J. Burgos-Cardenas",
+      "G. Buitrago Gutierrez",
+      "N. V. Chawla",
+    ],
+    venue: "Under Review",
+    description:
+      "This study applies a fold-change analytical framework to examine health inequities within multimorbidity patterns. By quantifying disparities across population subgroups, the work provides actionable insights for designing targeted and equitable health policy interventions.",
+    links: {
+      pdf: "#",
+      arxiv: "#",
+      code: "#",
+      website: "",
     },
-  ],
+    featured: true,
+  },
+
+  {
+    id: "pub-3",
+    title: "Semantic Framework for Query-Synthesized 3D Scene Rendering",
+    year: "2023",
+    authors: ["Sri Gayatri Devi", "S. Sowmiya Sree", "Jerrick Gerald", "Geetha Palanisamy"],
+    venue: "ICDIPV 2023",
+    description:
+      "This work presents an end-to-end model for novel view synthesis from a single image, eliminating the need for multi-view inputs or ground-truth 3D data. The model learns 3D-aware features through spatial feature extraction and depth prediction, followed by a refinement network that inpaints occluded regions for realistic scene generation.",
+    links: {
+      pdf: "#",
+      arxiv: "#",
+      code: "#",
+      website: "",
+    },
+    featured: true,
+  },
+],
+
 
   talks: [
     {
