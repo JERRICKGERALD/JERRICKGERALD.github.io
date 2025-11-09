@@ -42,29 +42,6 @@ const myPortfolioData = {
   ],
 
   publications: [
-            {
-      id: "pub-3",
-      title: "Semantic Framework for Query Synthesised 3D Scene Rendering",
-      year: "2023",
-      authors: [
-        "Sri Gayatri Devi",
-        "S Sowmiya Sree",
-        "Jerrick Gerald",
-        "Geetha Palanisamy",
-      ],
-      venue: "ICDIPV 2023",
-      description:
-        "This work presents an end-to-end model for novel view synthesis from a single image, eliminating the need for multi-view inputs or ground-truth 3D data. The model learns 3D-aware features through spatial feature extraction and depth map prediction. A query network generates the target view, while a refinement network inpaints missing regions to produce realistic outputs. The approach is trained and evaluated on the RealEstate10K and KITTI datasets, covering both indoor and outdoor scenes.",
-      links: {
-        pdf: "#",
-        arxiv: "#",
-        code: "#",
-        website: "",
-      },
-
-      featured: true,
-    },
-    
     {
       id: "pub-2",
       title:
