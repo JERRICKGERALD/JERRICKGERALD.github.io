@@ -41,8 +41,23 @@ const myPortfolioData = {
   ],
 
   publications: [
-    {
+        {
       id: "pub-1",
+      title:
+        "Development and Validation of a Predictive Model for Obesity and Cardiometabolic Risk in Mexican Children and Adolescents.",
+      year: "2026",
+      authors: ["Jerrick Gerald", "Nitesh V. Chawla", "Keith Feldman"],
+      venue: "[To Be submitted]",
+      description:
+        "",
+        arxiv: "#",
+        code: "#",
+        website: "",
+      },
+      featured: true,
+    },
+    {
+      id: "pub-2",
       title:
         "Embracing Missingness: Enhancing Similarity Measures via Probabilistic Embeddings",
       year: "2025",
@@ -60,13 +75,13 @@ const myPortfolioData = {
     },
 
     {
-      id: "pub-2",
+      id: "pub-3",
       title:
         "Addressing Health Inequities Through Multimorbidity Analysis: A Fold Change Approach for Targeted Health Policy Interventions",
       year: "2025",
       authors: [
-        "G. Khvatskii",
         "J. Gerald",
+        "G. Khvatskii",
         "Á. García-Martínez",
         "K. Feldman",
         "Á. J. Burgos-Cardenas",
@@ -86,7 +101,7 @@ const myPortfolioData = {
     },
 
     {
-      id: "pub-3",
+      id: "pub-4",
       title: "Semantic Framework for Query-Synthesized 3D Scene Rendering",
       year: "2023",
       authors: [
