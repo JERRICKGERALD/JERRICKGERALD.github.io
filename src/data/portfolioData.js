@@ -41,27 +41,33 @@ const myPortfolioData = {
   ],
 
   publications: [
-        {
+
+    {
       id: "pub-1",
-      title:
-        "Development and Validation of a Predictive Model for Obesity and Cardiometabolic Risk in Mexican Children and Adolescents.",
+      title: "Development and validation of a predictive model for obesity and cardiometabolic risk in Mexican children and adolescents",
       year: "2026",
-      authors: ["Jerrick Gerald", "Nitesh V. Chawla", "Keith Feldman"],
-      venue: "[To Be submitted]",
+      authors: ["Lopez-Gonzalez, D.", "Gerald, J.", "Garcia-Martinez, A.",  "Chawla, N."
+  
+      ],
+      venue: "Abstract Submitted [International Congress on Obesity 2026]",
+    
       description:
         "",
+      links: {
+        pdf: "#",
         arxiv: "#",
         code: "#",
         website: "",
       },
       featured: true,
     },
+
     {
       id: "pub-2",
       title:
         "Embracing Missingness: Enhancing Similarity Measures via Probabilistic Embeddings",
       year: "2025",
-      authors: ["Jerrick Gerald", "Nitesh V. Chawla", "Keith Feldman"],
+      authors: ["Gerald, J.", "Chawla, N. V.", " Feldman, K."],
       venue: "[To Be submitted]",
       description:
         "This paper introduces a probabilistic embedding framework to handle missing data when computing similarity measures. By modeling uncertainty explicitly, the approach enhances robustness and interpretability across heterogeneous datasets. Experiments demonstrate improvements in clustering and retrieval tasks compared to traditional imputation-based methods.",
