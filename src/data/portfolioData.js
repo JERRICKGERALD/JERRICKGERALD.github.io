@@ -41,21 +41,27 @@ const myPortfolioData = {
   ],
 
   publications: [
-        {
+    {
       id: "pub-1",
-      title:
-        "Development and Validation of a Predictive Model for Obesity and Cardiometabolic Risk in Mexican Children and Adolescents.",
+      title: "Development and validation of a predictive model for obesity and cardiometabolic risk in Mexican children and adolescents",
       year: "2026",
-      authors: ["Jerrick Gerald", "Nitesh V. Chawla", "Keith Feldman"],
-      venue: "[To Be submitted]",
+      authors: ["Lopez-Gonzalez, D.", "Gerald, J.", "Garcia-Martinez, A.",  "Chawla, N."
+  
+      ],
+      venue: "Abstract Submitted [International Congress on Obesity 2026]",
+    
       description:
         "",
+      links: {
+        pdf: "#",
         arxiv: "#",
         code: "#",
         website: "",
       },
       featured: true,
     },
+
+
     {
       id: "pub-2",
       title:
