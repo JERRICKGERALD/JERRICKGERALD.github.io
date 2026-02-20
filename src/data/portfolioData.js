@@ -48,7 +48,7 @@ const myPortfolioData = {
       authors: ["Lopez-Gonzalez, D.", "Gerald, J.", "Garcia-Martinez, A.",  "Chawla, N."
   
       ],
-      venue: "Abstract Submitted [International Congress on Obesity 2026]",
+      venue: "Abstract Submitted - International Congress on Obesity 2026",
     
       description:
         "",
