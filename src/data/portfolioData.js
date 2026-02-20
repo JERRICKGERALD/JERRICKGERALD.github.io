@@ -2,7 +2,7 @@ const myPortfolioData = {
   personal: {
     firstName: "Jerrick",
     lastName: "Gerald",
-    title: "FIRST YEAR PHD, UNIVERSITY OF NOTRE DAME",
+    title: "SECOND YEAR PHD, UNIVERSITY OF NOTRE DAME",
     email: "jgerald [at] nd [dot] edu / jerrick1105 [at] gmail [dot] com",
     profileImage: "/IMG_8197.jpg",
     bio: " Hi there 👋! I’m a Ph.D. student working with Prof. Nitesh Chawla, where my research lies at the intersection of representation learning, missing data, higher-order networks, and uncertainty in machine learning. I’m passionate about developing robust and expressive models that can navigate the challenges of incomplete data and uncover structure in complex relational systems. Before this, I completed my M.S. in Data Science at George Washington University and earned my B.E. in Computer Science from the College of Engineering, Guindy (Anna University). Looking forward to connecting—nice to e-meet you!",
@@ -47,7 +47,7 @@ const myPortfolioData = {
         "Embracing Missingness: Enhancing Similarity Measures via Probabilistic Embeddings",
       year: "2025",
       authors: ["Jerrick Gerald", "Nitesh V. Chawla", "Keith Feldman"],
-      venue: "ICDIPV 2025",
+      venue: "[To Be submitted]",
       description:
         "This paper introduces a probabilistic embedding framework to handle missing data when computing similarity measures. By modeling uncertainty explicitly, the approach enhances robustness and interpretability across heterogeneous datasets. Experiments demonstrate improvements in clustering and retrieval tasks compared to traditional imputation-based methods.",
       links: {
@@ -73,7 +73,7 @@ const myPortfolioData = {
         "G. Buitrago Gutierrez",
         "N. V. Chawla",
       ],
-      venue: "Under Review",
+      venue: "[To be submitted - Lancet Regional Health]",
       description:
         "This study applies a fold-change analytical framework to examine health inequities within multimorbidity patterns. By quantifying disparities across population subgroups, the work provides actionable insights for designing targeted and equitable health policy interventions.",
       links: {
