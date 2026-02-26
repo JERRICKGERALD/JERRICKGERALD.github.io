@@ -12,7 +12,7 @@ export const TalksSection = ({ talks }) => {
           <h3 className="text-lg font-semibold text-gray-800 mb-2">
             {talk.title}
           </h3>
-          <div className="text-gray-600 mb-2">
+          {/* <div className="text-gray-600 mb-2">
             <span className="font-medium">{talk.venue}</span>
             {talk.location && <span> • {talk.location}</span>}
             <span> • {talk.date}</span>
@@ -35,7 +35,7 @@ export const TalksSection = ({ talks }) => {
                 [ Video ]
               </a>
             )}
-          </div>
+          </div> */}
         </div>
       ))}
     </div>
