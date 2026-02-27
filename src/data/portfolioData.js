@@ -15,6 +15,7 @@ const myPortfolioData = {
       field: "Computer Science",
       startDate: "2025",
       endDate: "Present",
+      location: "Notre Dame, IN",
       advisor: "Nitesh V Chawla (ACM/AAAI/AAAS/IEEE fellow)",
       focus: "Representation Learning, Machine Learning, Higher Order Networks",
     },
@@ -67,7 +68,7 @@ const myPortfolioData = {
       title:
         "Embracing Missingness: Enhancing Similarity Measures via Probabilistic Embeddings",
       year: "2025",
-      authors: ["Gerald, J.", "Chawla, N. V.", " Feldman, K."],
+      authors: [" J. Gerald", "Á. García-Martínez","Chawla, N. V.", " Feldman, K."],
       venue: "[To Be submitted]",
       description:
         "This paper introduces a probabilistic embedding framework to handle missing data when computing similarity measures. By modeling uncertainty explicitly, the approach enhances robustness and interpretability across heterogeneous datasets. Experiments demonstrate improvements in clustering and retrieval tasks compared to traditional imputation-based methods.",
@@ -83,7 +84,7 @@ const myPortfolioData = {
     {
       id: "pub-3",
       title:
-        "Addressing Health Inequities Through Multimorbidity Analysis: A Fold Change Approach for Targeted Health Policy Interventions",
+        "Multimorbidity as a Network of Chronic Disease in Colombia: Implications for Integrated Care",
       year: "2025",
       authors: [
         "J. Gerald",
@@ -111,10 +112,10 @@ const myPortfolioData = {
       title: "Semantic Framework for Query-Synthesized 3D Scene Rendering",
       year: "2023",
       authors: [
-        "Sri Gayatri Devi",
+        "S. Devi",
         "S. Sowmiya Sree",
-        "Jerrick Gerald",
-        "Geetha Palanisamy",
+        "J. Gerald",
+        "G. Palanisamy",
       ],
       venue: "ICDIPV 2023",
       description:
@@ -175,13 +176,13 @@ const myPortfolioData = {
   awards: [
     {
       id: "award-1",
-      title: "Global Leaders Fellowship",
+      title: "Global Leaders Fellowship ($8000)",
       issuer: "The George Washington University",
       date: "2022 - 2023",
     },
     {
       id: "award-2",
-      title: "Global Leaders Fellowship",
+      title: "Global Leaders Fellowship ($8000)",
       issuer: "The George Washington University",
       date: "2023 - 2024  ",
     },
